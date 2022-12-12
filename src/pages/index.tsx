@@ -5,7 +5,8 @@ import Copyright from '@components/Copyright'
 export default function Home() {
   return (
     <>
-      <Typography>index</Typography>
+      <Typography>{process.env.NEXT_PUBLIC_KEY1}</Typography>
+
       <Copyright />
     </>
   )
