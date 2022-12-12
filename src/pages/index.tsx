@@ -1,6 +1,5 @@
-import Container from '@mui/material/Container'
-import Typography from '@mui/material/Typography'
-import Copyright from '@components/Copyright'
+import { Copyright } from '@mui/icons-material'
+import { Typography } from '@mui/material'
 
 export default function Home() {
   return (
